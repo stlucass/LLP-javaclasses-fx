@@ -6,20 +6,20 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.io.IOException;
 
-public class Exercicio2Controller {
+public class Exercicio4MenuController {
 
     private final String FXML_PATH = "/org/example/javaclassesfx/";
 
-    public void abrirTelaLua(ActionEvent event) {
-        abrirNovaJanela("lua-view.fxml", "Cadastro de Lua");
+    public void abrirTelaRelogio(ActionEvent event) {
+        abrirNovaJanela("relogio-view.fxml", "Cadastro de Relógio");
     }
 
-    public void abrirTelaPele(ActionEvent event) {
-        abrirNovaJanela("pele-view.fxml", "Cadastro de Pele");
+    public void abrirTelaPessoa(ActionEvent event) {
+        abrirNovaJanela("pessoa-view.fxml", "Cadastro de Pessoa");
     }
 
-    public void abrirTelaCorpoCeleste(ActionEvent event) {
-        abrirNovaJanela("corpo-celeste-view.fxml", "Cadastro de Corpo Celeste");
+    public void abrirTelaCopo(ActionEvent event) {
+        abrirNovaJanela("copo-view.fxml", "Cadastro de Copo");
     }
 
     private void abrirNovaJanela(String fxmlPath, String titulo) {

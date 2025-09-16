@@ -1,11 +1,11 @@
 package exercicio5;
 
-public class Pessoa {
+public class Pessoa5 {
 	private String sexo;
 	private int idade;
 	private String nome;
 
-	public Pessoa(String sexo, int idade, String nome) {
+	public Pessoa5(String sexo, int idade, String nome) {
 		this.sexo = sexo;
 		this.idade = idade;
 		this.nome = nome;

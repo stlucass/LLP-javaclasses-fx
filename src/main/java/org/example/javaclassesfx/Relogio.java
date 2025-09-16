@@ -1,4 +1,4 @@
-package exercicio4;
+package org.example.javaclassesfx;
 
 public class Relogio {
 	private String modelo;
@@ -23,27 +23,27 @@ public class Relogio {
 		System.out.println("Os ponteiros do relógio estão girando.");
 	}
 
-	private int getQtd_ponteiros() {
+	public int getQtd_ponteiros() {
 		return qtd_ponteiros;
 	}
 
-	private void setQtd_ponteiros(int qtd_ponteiros) {
+	public void setQtd_ponteiros(int qtd_ponteiros) {
 		this.qtd_ponteiros = qtd_ponteiros;
 	}
 
-	private String getTamanho() {
+	public String getTamanho() {
 		return tamanho;
 	}
 
-	private void setTamanho(String tamanho) {
+	public void setTamanho(String tamanho) {
 		this.tamanho = tamanho;
 	}
 
-	private String getModelo() {
+	public String getModelo() {
 		return modelo;
 	}
 
-	private void setModelo(String modelo) {
+	public void setModelo(String modelo) {
 		this.modelo = modelo;
 	}
 

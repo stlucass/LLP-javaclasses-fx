@@ -1,4 +1,4 @@
-package exercicio4;
+package org.example.javaclassesfx;
 
 public class Copo {
 	private String material;
@@ -23,27 +23,27 @@ public class Copo {
 		System.out.println("O copo foi preenchido.");
 	}
 
-	private double getCapacidade() {
+	public double getCapacidade() {
 		return capacidade;
 	}
 
-	private void setCapacidade(double capacidade) {
+	public void setCapacidade(double capacidade) {
 		this.capacidade = capacidade;
 	}
 
-	private String getPreenchimento() {
+	public String getPreenchimento() {
 		return preenchimento;
 	}
 
-	private void setPreenchimento(String preenchimento) {
+	public void setPreenchimento(String preenchimento) {
 		this.preenchimento = preenchimento;
 	}
 
-	private String getMaterial() {
+	public String getMaterial() {
 		return material;
 	}
 
-	private void setMaterial(String material) {
+	public void setMaterial(String material) {
 		this.material = material;
 	}
 }
