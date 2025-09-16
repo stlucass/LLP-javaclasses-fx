@@ -1,4 +1,4 @@
-package exercicio3;
+package org.example.javaclassesfx;
 
 public class Fardo {
 	private String material;

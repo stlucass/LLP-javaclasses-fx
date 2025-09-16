@@ -1,4 +1,4 @@
-package exercicio3;
+package org.example.javaclassesfx;
 
 public class Lixo {
 	private String categoria;
@@ -15,27 +15,27 @@ public class Lixo {
 		System.out.println("Lixo poluiu ambiente.");
 	}
 
-	private String getForma() {
+	public String getForma() {
 		return forma;
 	}
 
-	private void setForma(String forma) {
+	public void setForma(String forma) {
 		this.forma = forma;
 	}
 
-	private String getMaterial() {
+	public String getMaterial() {
 		return material;
 	}
 
-	private void setMaterial(String material) {
+	public void setMaterial(String material) {
 		this.material = material;
 	}
 
-	private String getCategoria() {
+	public String getCategoria() {
 		return categoria;
 	}
 
-	private void setCategoria(String categoria) {
+	public void setCategoria(String categoria) {
 		this.categoria = categoria;
 	}
 }
