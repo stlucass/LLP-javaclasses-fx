@@ -10,19 +10,6 @@ public class Cadeira {
 		this.qtd_pes = qtd_pes;
 		this.material = material;
 	}
-
-	public void suportar_itens() {
-		System.out.println("Cadeira suportou item.");
-	}
-
-	public void quebrar() {
-		System.out.println("Cadeira quebrou.");
-	}
-
-	public void dobrar() {
-		System.out.println("Cadeira dobrou.");
-	}
-
 	public String getModelo() {
 		return modelo;
 	}

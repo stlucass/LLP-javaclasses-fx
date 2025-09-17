@@ -11,10 +11,6 @@ public class Lua {
 		this.influencia = influencia;
 	}
 
-	public void exercer_influencia() {
-		System.out.println("Exercendo influência: " + influencia);
-	}
-
 	public String getFase() {
 		return fase;
 	}

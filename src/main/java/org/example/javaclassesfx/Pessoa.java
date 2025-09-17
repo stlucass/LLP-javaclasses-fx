@@ -10,19 +10,6 @@ public class Pessoa {
         this.setIdade(idade);
         this.setNome(nome);
     }
-
-    public void viver() {
-        System.out.println(getNome() + " está vivendo.");
-    }
-
-    public void andar() {
-        System.out.println(getNome() + " está andando.");
-    }
-
-    public void pular() {
-        System.out.println(getNome() + " está pulando.");
-    }
-
     public String getSexo() {
         return sexo;
     }

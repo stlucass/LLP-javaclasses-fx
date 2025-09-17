@@ -11,10 +11,6 @@ public class Fardo {
 		this.capacidade = capacidade;
 	}
 
-	public void carregar_itens() {
-		System.out.println("Fardo carregou itens");
-	}
-
 	public double getCapacidade() {
 		return capacidade;
 	}

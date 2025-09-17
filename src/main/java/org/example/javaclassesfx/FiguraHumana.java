@@ -11,10 +11,6 @@ public class FiguraHumana {
 		this.setPosicao_corporal(posicao_corporal);
 	}
 
-	public void carregar_fardo() {
-		System.out.println(getNome() + " carregou fardo");
-	}
-
 	public String getNome() {
 		return nome;
 	}

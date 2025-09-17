@@ -11,10 +11,6 @@ public class Lixo {
 		this.forma = forma;
 	}
 
-	public void poluir_ambiente() {
-		System.out.println("Lixo poluiu ambiente.");
-	}
-
 	public String getForma() {
 		return forma;
 	}

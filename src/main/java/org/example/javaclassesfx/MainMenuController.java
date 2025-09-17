@@ -11,15 +11,15 @@ public class MainMenuController {
     private final String FXML_PACKAGE_PATH = "/org/example/javaclassesfx/";
 
     public void abrirMenuExercicio2(ActionEvent event) {
-        abrirNovaJanela("exercicio2-menu.fxml", "Menu Exercício 2");
+        abrirNovaJanela("exercicio2-view.fxml", "Menu Exercício 2");
     }
 
     public void abrirMenuExercicio3(ActionEvent event) {
-        abrirNovaJanela("exercicio3-menu.fxml", "Menu Exercício 3");
+        abrirNovaJanela("exercicio3-view.fxml", "Menu Exercício 3");
     }
 
     public void abrirMenuExercicio4(ActionEvent event) {
-        abrirNovaJanela("exercicio4-menu.fxml", "Menu Exercício 4");
+        abrirNovaJanela("exercicio4-view.fxml", "Menu Exercício 4");
     }
 
     public void abrirMenuExercicio5(ActionEvent event) {

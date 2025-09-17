@@ -11,18 +11,6 @@ public class Relogio {
 		this.setQtd_ponteiros(qtd_ponteiros);
 	}
 
-	public void marcar_minutos() {
-		System.out.println("O relógio está marcando os minutos.");
-	}
-
-	public void marcar_horas() {
-		System.out.println("O relógio está marcando as horas.");
-	}
-
-	public void girar_ponteiros() {
-		System.out.println("Os ponteiros do relógio estão girando.");
-	}
-
 	public int getQtd_ponteiros() {
 		return qtd_ponteiros;
 	}

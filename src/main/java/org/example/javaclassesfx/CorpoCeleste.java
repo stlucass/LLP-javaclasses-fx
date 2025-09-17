@@ -11,10 +11,6 @@ public class CorpoCeleste {
 		this.velocidade_rotacao = velocidade_rotacao;
 	}
 
-	public void entrar_em_orbita() {
-		System.out.println(nome + " entrou em órbita na posição " + posicao);
-	}
-
 	public String getNome() {
 		return nome;
 	}

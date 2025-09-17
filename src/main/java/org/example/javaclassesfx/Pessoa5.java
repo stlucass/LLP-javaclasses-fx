@@ -11,18 +11,6 @@ public class Pessoa5 {
 		this.nome = nome;
 	}
 
-	public void ensinar() {
-		System.out.println(nome + " está ensinando.");
-	}
-
-	public void falar() {
-		System.out.println(nome + " está falando.");
-	}
-
-	public void movimentar() {
-		System.out.println(nome + " está movimentando.");
-	}
-
 	public String getNome() {
 		return nome;
 	}

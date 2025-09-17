@@ -11,18 +11,6 @@ public class Mesa {
 		this.qtd_pes = qtd_pes;
 	}
 
-	public void suportar_itens() {
-		System.out.println("Mesa suportou item.");
-	}
-
-	public void quebrar() {
-		System.out.println("Mesa quebrou.");
-	}
-
-	public void dobrar() {
-		System.out.println("Mesa dobrou.");
-	}
-
 	public double getArea() {
 		return area;
 	}

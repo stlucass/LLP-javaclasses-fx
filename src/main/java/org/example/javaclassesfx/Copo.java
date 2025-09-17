@@ -11,18 +11,6 @@ public class Copo {
 		this.capacidade = capacidade;
 	}
 
-	public void carregar_liquido() {
-		System.out.println("O copo está sendo preenchido com " + preenchimento);
-	}
-
-	public void quebrar() {
-		System.out.println("O copo de " + material + " quebrou.");
-	}
-
-	public void ser_preenchido() {
-		System.out.println("O copo foi preenchido.");
-	}
-
 	public double getCapacidade() {
 		return capacidade;
 	}

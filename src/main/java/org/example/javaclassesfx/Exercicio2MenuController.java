@@ -19,7 +19,7 @@ public class Exercicio2MenuController {
     }
 
     public void abrirTelaCorpoCeleste(ActionEvent event) {
-        abrirNovaJanela("corpo-celeste-view.fxml", "Cadastro de Corpo Celeste");
+        abrirNovaJanela("corpoceleste-view.fxml", "Cadastro de Corpo Celeste");
     }
 
     private void abrirNovaJanela(String fxmlPath, String titulo) {

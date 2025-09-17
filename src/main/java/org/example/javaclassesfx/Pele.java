@@ -11,10 +11,6 @@ public class Pele {
 		this.textura = textura;
 	}
 
-	public void sentir_toque() {
-		System.out.println("Sentindo toque com sensibilidade: " + sensibilidade);
-	}
-
 	public String getSensibilidade() {
 		return sensibilidade;
 	}
