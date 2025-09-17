@@ -1,4 +1,4 @@
-package exercicio5;
+package org.example.javaclassesfx;
 
 public class Cadeira {
 	private String modelo;
@@ -39,11 +39,11 @@ public class Cadeira {
 		this.qtd_pes = qtd_pes;
 	}
 
-	private String getMaterial() {
+	public String getMaterial() {
 		return material;
 	}
 
-	private void setMaterial(String material) {
+	public void setMaterial(String material) {
 		this.material = material;
 	}
 }

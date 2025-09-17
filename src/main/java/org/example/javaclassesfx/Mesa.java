@@ -1,4 +1,4 @@
-package exercicio5;
+package org.example.javaclassesfx;
 
 public class Mesa {
 	private String material;
@@ -23,27 +23,27 @@ public class Mesa {
 		System.out.println("Mesa dobrou.");
 	}
 
-	private double getArea() {
+	public double getArea() {
 		return area;
 	}
 
-	private void setArea(double area) {
+	public void setArea(double area) {
 		this.area = area;
 	}
 
-	private int getQtd_pes() {
+	public int getQtd_pes() {
 		return qtd_pes;
 	}
 
-	private void setQtd_pes(int qtd_pes) {
+	public void setQtd_pes(int qtd_pes) {
 		this.qtd_pes = qtd_pes;
 	}
 
-	private String getMaterial() {
+	public String getMaterial() {
 		return material;
 	}
 
-	private void setMaterial(String material) {
+	public void setMaterial(String material) {
 		this.material = material;
 	}
 }

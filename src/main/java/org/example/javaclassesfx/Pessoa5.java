@@ -1,4 +1,4 @@
-package exercicio5;
+package org.example.javaclassesfx;
 
 public class Pessoa5 {
 	private String sexo;
@@ -23,27 +23,27 @@ public class Pessoa5 {
 		System.out.println(nome + " está movimentando.");
 	}
 
-	private String getNome() {
+	public String getNome() {
 		return nome;
 	}
 
-	private void setNome(String nome) {
+	public void setNome(String nome) {
 		this.nome = nome;
 	}
 
-	private int getIdade() {
+	public int getIdade() {
 		return idade;
 	}
 
-	private void setIdade(int idade) {
+	public void setIdade(int idade) {
 		this.idade = idade;
 	}
 
-	private String getSexo() {
+	public String getSexo() {
 		return sexo;
 	}
 
-	private void setSexo(String sexo) {
+	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
 }

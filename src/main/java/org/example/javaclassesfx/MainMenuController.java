@@ -19,11 +19,11 @@ public class MainMenuController {
     }
 
     public void abrirMenuExercicio4(ActionEvent event) {
-        abrirNovaJanela("exercicio4-view.fxml", "Menu Exercício 4");
+        abrirNovaJanela("exercicio4-menu.fxml", "Menu Exercício 4");
     }
 
     public void abrirMenuExercicio5(ActionEvent event) {
-        // Lógica para o Exercício 5
+        abrirNovaJanela("exercicio5-view.fxml", "Menu Exercício 5");
     }
 
     private void abrirNovaJanela(String fxmlPath, String titulo) {
