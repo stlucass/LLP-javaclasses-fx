@@ -16,7 +16,6 @@ public class LuaController {
 
     @FXML
     protected void onSalvarButtonClick() {
-        // Não é mais necessário o 'try-catch' para NumberFormatException, pois não há conversão para número
         String fase = tfFase.getText();
         String iluminacao = tfIluminacao.getText(); // Apenas pega o texto
         String influencia = tfInfluencia.getText();
@@ -39,7 +38,6 @@ public class LuaController {
                 escritor.append("fase,iluminacao,influencia\n");
             }
 
-            // A linha abaixo foi corrigida para usar '%s' em vez de '%d' para a iluminação
             escritor.append(String.format("%s,%s,%s\n", lua.getFase(), lua.getIluminacao(), lua.getInfluencia()));
             System.out.println("Objeto Lua salvo com sucesso!");
 

@@ -42,8 +42,6 @@ public class PeleController {
             if (new java.io.File(caminhoArquivo).length() == 0) {
                 escritor.append("sensibilidade,temperatura,textura\n");
             }
-
-            // Usando '%s' para strings e '%.2f' para double
             escritor.append(String.format("%s,%.2f,%s\n", pele.getSensibilidade(), pele.getTemperatura(), pele.getTextura()));
             System.out.println("Objeto Pele salvo com sucesso!");
 
